@@ -1,5 +1,4 @@
 
-
 #carre1
 {
     width: 400px;
@@ -38,8 +37,12 @@
     background-color: orange;
 
     position: absolute;
-    top:55px;
-    left:55px;
+    /* top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    top: calc(50%-15px);
+    left:calc(50%-15px);
+    
 }
 
 #carreVert
